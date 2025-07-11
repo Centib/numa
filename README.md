@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![Hex.pm](https://img.shields.io/hexpm/v/numa.svg)](https://hex.pm/packages/numa)
+[![Documentation](https://img.shields.io/badge/documentation-gray)](https://hexdocs.pm/numa/)
 
 Numa provides an easy way to define enum-like macros in Elixir.
 
