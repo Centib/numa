@@ -1,11 +1,12 @@
 # Numa
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![Hex.pm](https://img.shields.io/hexpm/v/numa.svg)](https://hex.pm/packages/numa)
 
 Numa provides an easy way to define enum-like macros in Elixir.
 
 It allows you to create named constants with associated values that can be used as compile-time macros.
-You can pass a list of plain values or keyword pairs to generate macros for enums automatically.
+You can pass a list of plain values or keyword pairs to automatically generate macros for your enums.
 This is useful when you want efficient, readable constants without the overhead of runtime lookups.
 
 ## Features

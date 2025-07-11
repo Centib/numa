@@ -13,7 +13,7 @@ defmodule Numa.MixProject do
       deps: deps(),
 
       # Hex
-      description: "A tiny Elixir library for defining enum-like macros with helpers",
+      description: "A tiny Elixir library for defining enums with macros and helper functions",
       package: package(),
 
       # Docs
@@ -43,7 +43,8 @@ defmodule Numa.MixProject do
       maintainers: ["Zoran Radovanovic"],
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url},
-      files: ~w(.formatter.exs mix.exs README.md LICENSE.md lib assets/logo.png)
+      files: ~w(.formatter.exs mix.exs README.md LICENSE.md lib assets/logo.png),
+      keywords: ["enum", "const", "macro", "elixir", "helpers"]
     ]
   end
 
