@@ -23,3 +23,5 @@ numa-*.tar
 /tmp/
 
 .elixir_ls/
+
+.vscode/
