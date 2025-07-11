@@ -39,8 +39,7 @@ defmodule Numa.MixProject do
 
   defp package do
     [
-      organization: "Centib",
-      maintainers: ["Zoran Radovanovic"],
+      maintainers: ["gnjec (Centib)"],
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url},
       files: ~w(.formatter.exs mix.exs README.md LICENSE.md lib assets/logo.png),
