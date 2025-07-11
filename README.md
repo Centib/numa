@@ -18,7 +18,7 @@ This is useful when you want efficient, readable constants without the overhead 
 
 ## Installation
 
-If [available in Hex](https://hex.pm/packages/numa), add `numa` to your list of dependencies in `mix.exs`:
+Add `numa` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -103,7 +103,6 @@ end
 
 Documentation is generated with [ExDoc](https://github.com/elixir-lang/ex_doc) and published on [HexDocs](https://hexdocs.pm/numa).
 
-Once published, you can find the docs at:
-[https://hexdocs.pm/numa](https://hexdocs.pm/numa)
-
 ---
+
+Created and maintained by [Centib](https://github.com/Centib).
