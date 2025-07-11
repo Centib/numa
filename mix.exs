@@ -42,7 +42,7 @@ defmodule Numa.MixProject do
       maintainers: ["gnjec (Centib)"],
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url},
-      files: ~w(.formatter.exs mix.exs README.md LICENSE.md lib assets/logo.png),
+      files: ~w(.formatter.exs mix.exs README.md CHANGELOG.md LICENSE.md lib assets/logo.png),
       keywords: ["enum", "const", "macro", "elixir", "helpers"]
     ]
   end
@@ -50,7 +50,7 @@ defmodule Numa.MixProject do
   defp docs do
     [
       main: "readme",
-      extras: ["README.md", "LICENSE.md"],
+      extras: ["README.md", "CHANGELOG.md", "LICENSE.md"],
       source_ref: "v#{@version}",
       source_url: @source_url,
       logo: "assets/logo.png"
