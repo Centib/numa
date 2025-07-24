@@ -2,7 +2,7 @@ defmodule Numa.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/Centib/numa"
-  @version "0.1.0"
+  @version "0.1.1"
 
   def project do
     [
@@ -13,7 +13,7 @@ defmodule Numa.MixProject do
       deps: deps(),
 
       # Hex
-      description: "A tiny Elixir library for defining enums with macros and helper functions",
+      description: "Lightweight compile-time symbolic constants for Elixir using macros.",
       package: package(),
 
       # Docs
@@ -42,7 +42,7 @@ defmodule Numa.MixProject do
       maintainers: ["gnjec (Centib)"],
       licenses: ["MIT"],
       links: %{"GitHub" => @source_url},
-      files: ~w(.formatter.exs mix.exs README.md CHANGELOG.md LICENSE.md lib assets/logo.png),
+      files: ~w(.formatter.exs mix.exs README.md CHANGELOG.md LICENSE.md lib),
       keywords: ["enum", "const", "macro", "elixir", "helpers"]
     ]
   end
@@ -53,7 +53,7 @@ defmodule Numa.MixProject do
       extras: ["README.md", "CHANGELOG.md", "LICENSE.md"],
       source_ref: "v#{@version}",
       source_url: @source_url,
-      logo: "assets/logo.png"
+      logo: "assets/logo.svg"
     ]
   end
 end

@@ -1,13 +1,11 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## v0.1.1 (2025-07-24)
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
-and this project adheres to [Semantic Versioning](https://semver.org/).
+- Documentation improvements in `README.md`
+- Updated project logo
 
-## [0.1.0] - 2025-07-11
-
-### Added
+## v0.1.0 (2025-07-11)
 
 - Initial release of Numa — a tiny Elixir library for defining enum-like macros with helpers.
 - Support for defining enums using plain values (`["A", "B"]`) or keyword pairs (`[A: "alpha", B: "beta"]`).
